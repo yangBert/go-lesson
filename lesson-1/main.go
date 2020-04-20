@@ -39,6 +39,7 @@ func main() {
 	r := &rectangular{2, 3, "rectangular"}
 	shapes := []shaper{c, r}
 
+	//接口的多肽
 	for _, item := range shapes {
 		fmt.Printf("%s area = %d \n", item.getName(), item.area())
 	}
